@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+
+header {
+	width: 100%;
+	display: flex;
+}
+
+header nav {
+	position: relative;
+	display: flex;
+	margin-left: auto;
+	width: auto;
+	padding: 16px 0;
+	align-items: center;
+	font-size: .85em;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+header nav ul li {
+	margin-right: 15px;
+}
+
+nav button {
+	padding: 7px 12px;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 2px;
+	margin-left: 23px;
+	margin-right: 30px;
+}
+
+.fas {
+	font-size: 1.3em;
+	margin-left: 5px;
+	color: #666;
+}
+
+.fas:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+main {
+}
+
+.logo {
+	padding: 150px 0 40px;
+}
+
+.center {
+	margin: 0 auto;
+	width: 45%;
+	text-align: center;
+}
+
+.search-box {
+	width: 100%;
+	height: 40px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+main input {
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: 1px #ccf solid;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px 0 #80aaaaff;
+	padding-left: 20px;
+}
+
+main input:hover, main input:focus, span:hover ~ input {
+	box-shadow: 0 1px 3px 1px #80aaaaff;
+}
+
+span {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/2000px-Google_mic.svg.png');
+	height: 100%;
+	width: 20px;
+	display: inline-block;
+	background-size: 17px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 20%;
+	right: 4%;
+	cursor: pointer;
+}
+
+main button {
+	padding: 9px 14px;
+	background-color: #eee;
+	border: 1px transparent solid;
+	color: #777;
+	font-weight: 600;
+}
+
+main button:hover {
+	border: 1px #888 solid;
+}
+
+
+footer {
+	background-color: #eee;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer div, footer nav {
+	border-top: 1px #ddc solid;
+	padding: 12px 30px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+footer nav, footer nav ul {
+	display: flex;
+}
+
+footer nav {
+	justify-content: space-between;
+	font-size: .8em;
+}
+
+footer nav ul:nth-child(2) li {
+	margin-left: 30px;
+}
+
+footer nav ul:first-child li {
+	margin-right: 30px;
+}
+
+footer p {
+	font-size: 1em;
+}
+
+footer p, footer nav li a {
+	color: #555;
+}
